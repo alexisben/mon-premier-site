@@ -1,0 +1,35 @@
+header.main-header {
+    padding-top: 25px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #000;
+}
+
+header.main-header .main-navigation {
+    display: flex;
+    font-size: 10px;
+    justify-content: start;
+    align-items: center;
+    text-align: right;
+    gap: 50px;
+}
+
+header.main-header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header.main-header nav ul li a {
+    font-weight: var(--font-weight-bold);
+    font-size: 25px;
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+header.main-header .search-truc {
+    margin-left: auto;
+    display: none;
+}
+
+header.main-header .search {
+    margin-right: auto;
+}
