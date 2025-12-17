@@ -8,7 +8,8 @@ header.main-header .main-navigation {
     display: flex;
     justify-content: start;
     align-items: center;
-    text-align: center;
+    text-align: left;
+    font-size: 20px;
     gap: 50px;
 }
 
@@ -22,6 +23,11 @@ header.main-header nav ul li a {
     font-size: 25px;
     color: var(--color-primary);
     text-decoration: underline;
+}
+
+header.main-header .search-truc {
+    margin-left: auto;
+    display: none;
 }
 
 header.main-header .search {
