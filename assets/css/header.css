@@ -6,9 +6,10 @@ header.main-header {
 
 header.main-header .main-navigation {
     display: flex;
+    font-size: 10px;
     justify-content: start;
     align-items: center;
-    text-align: center;
+    text-align: right;
     gap: 50px;
 }
 
@@ -25,5 +26,5 @@ header.main-header nav ul li a {
 }
 
 header.main-header .search {
-    margin-left: auto;
+    margin-right: auto;
 }
