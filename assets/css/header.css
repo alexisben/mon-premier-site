@@ -37,6 +37,6 @@ header.main-header .search {
 header.main-header {
     background: red;
     margin-top: 10px;
-    
+    display: block;
 }
 
