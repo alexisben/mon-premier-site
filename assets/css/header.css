@@ -33,3 +33,7 @@ header.main-header .search-truc {
 header.main-header .search {
     margin-right: auto;
 }
+
+header.main-header {
+    background: #000;
+}
