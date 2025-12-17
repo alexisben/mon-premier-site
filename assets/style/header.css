@@ -5,7 +5,7 @@ header.main-header {
 
 header.main-header .main-navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     gap: 20px;
 }
@@ -19,5 +19,9 @@ header.main-header nav ul li a {
     font-weight: var(--font-weight-bold);
     font-size: 25px;
     color: var(--color-primary);
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+header.main-header .search {
+    margin-left: auto;
 }
