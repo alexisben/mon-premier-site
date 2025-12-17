@@ -3,6 +3,9 @@
     --color-primary: #051B3B;
     --color-secondary: #000000;
 
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
 }
 
 @media (prefers-color-scheme: dark) {
