@@ -8,6 +8,7 @@ header.main-header .main-navigation {
     display: flex;
     justify-content: start;
     align-items: center;
+    text-align: center;
     gap: 20px;
 }
 
