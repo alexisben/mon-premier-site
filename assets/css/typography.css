@@ -30,7 +30,9 @@
         url("/assets/fonts/fira/FiraSans-Light.woff") format("woff");
 }
 
-
+body {
+    font-family: "Fira";
+}
 
 .title-1 {
     font-family: "Fira";
